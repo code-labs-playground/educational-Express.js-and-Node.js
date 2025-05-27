@@ -1,40 +1,109 @@
 # Building a Website with Node.js and Express.js
 
-This is the repository for the LinkedIn Learning course Building a Website with Node.js and Express.js. The full course is available from [LinkedIn Learning][https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js-3].
+This repository contains code and exercises for learning how to build a website using Node.js and Express.js. It's based on educational content for web development with these popular JavaScript technologies.
 
-_See the readme file in the main branch for updated instructions and information._
+## Project Overview
 
-## Instructions
+This project demonstrates how to:
+- Set up a Node.js development environment
+- Create a web server using Express.js
+- Handle routing and middleware
+- Serve static files and dynamic content
+- Build a complete website from scratch
 
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+## Repository Structure
 
-## Branches
+This repository uses branches to organize different stages of development. You can switch between branches to see the progression of the project.
 
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter.
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `final` branch holds the final state of the code when in the course.
+### Branch Naming Convention
+- Branches are named using the format `CHAPTER#_MOVIE#` (e.g., `02_03` for chapter 2, video 3)
+- Some branches have beginning (`b`) and end (`e`) states showing before and after code changes
+- The `final` branch contains the completed project
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-Add changes to git using this command: git add .
-Commit changes using this command: git commit -m "some message"
-
-## Installing
-
-- In your terminal, create directory `building-website-nodejs-express` and **change into it**.
-- Run
-
+### Switching Branches
+To switch to a specific branch:
 ```bash
-git clone --bare git@github.com:danielkhanbuilding-website-nodejs-express.git .git
-git config --bool core.bare false
-git reset --hard
-git branch
+git checkout BRANCH_NAME
 ```
 
-[0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+If you encounter conflicts when switching branches:
+```bash
+git add .
+git commit -m "Save current progress"
+git checkout BRANCH_NAME
+```
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [your-repository-url]
+   cd building-website-nodejs-express
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+## Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (Node Package Manager)
+- Basic knowledge of JavaScript
+- Text editor or IDE
+
+## Getting Started
+
+1. Start with the `main` branch to see the initial setup
+2. Follow along with each chapter by switching to the corresponding branch
+3. Make your own modifications and experiment with the code
+4. Use the final branch as a reference for the completed project
+
+## Technologies Used
+
+- **Node.js** - JavaScript runtime environment
+- **Express.js** - Web application framework
+- **HTML/CSS** - Frontend markup and styling
+- **JavaScript** - Client and server-side scripting
+
+## Learning Path
+
+1. **Setup and Configuration** - Initialize the project and install dependencies
+2. **Basic Express Server** - Create your first web server
+3. **Routing** - Handle different URL paths
+4. **Middleware** - Add functionality to request/response cycle
+5. **Static Files** - Serve CSS, images, and other assets
+6. **Templates** - Generate dynamic HTML content
+7. **Final Integration** - Combine all concepts into a complete website
+
+## Contributing
+
+Feel free to fork this repository and make your own improvements. This is a learning project, so experimentation is encouraged!
+
+## Support
+
+If you encounter any issues:
+1. Check that you have the correct Node.js version installed
+2. Make sure all dependencies are installed with `npm install`
+3. Verify you're on the correct branch for the exercise you're working on
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- Mobile: [+94719607296](tel:+94719607296)
+- Email: [lhlahiru95@gmail.com](mailto:lhlahiru95@gmail.com)
+- LinkedIn: [LahiruLiyanage](https://www.linkedin.com/in/liyanage-lahiru/)
+- GitHub: [@LahiruLiyanage](https://github.com/LahiruLiyanage)
+- WebSite: [lahiruliyanage.com](www.lahiruliyanage.com)
+
