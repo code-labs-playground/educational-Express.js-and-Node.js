@@ -1,0 +1,15 @@
+{
+  "name": "building-a-website-with-node.js-and-express.js",
+  "version": "1.0.0",
+  "description": "Exercise files for Building a Website with Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "lahiru-liyanage",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
